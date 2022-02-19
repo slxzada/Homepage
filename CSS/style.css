@@ -1,0 +1,70 @@
+* {
+    margin: 50px;
+}
+
+h1 {
+    color: #26415E;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    color: #26415E;
+    background-color: #e7ecf3;
+}
+
+img {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 400px;
+    height: 603.25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+#Hyukoh3 {
+    width: 400px;
+    height: 496px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+a {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+a:visited {
+    color: cadetblue;
+}
+a:hover {
+    color: mediumpurple;
+}
+
+em {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.special {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: italic;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+#click-here {
+    font-size: 30px;
+}
