@@ -1,13 +1,18 @@
 .container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     background: black;
-    height: 5000px;
+    height: 1000px;
+    width: 100%;
+    max-width: 100%;
+    z-index: -10;
  } 
 
 .introduction-1 {
     position: absolute;
-    width: 100%;
-    left: 100px;
     top: 50%;
+    left: 4%;
     font-size: 30px;
     color: white;
     font-family: 'Mukta', sans-serif;
@@ -18,7 +23,7 @@
 .introduction-2 {
     position: absolute;
     width: 100%;
-    left: 100px;
+    left: 4%;
     top: 55%;
     font-size: 30px;
     color: white;
@@ -30,22 +35,13 @@
 .introduction-3 {
     position: absolute;
     width: 100%;
-    left: 100px;
+    left: 4%;
     top: 60%;
     font-size: 30px;
     color: white;
     font-family: 'Mukta', sans-serif;
     z-index: +10;
     filter: blur(5px);
-}
-
-.block {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: black;
-    top: 0px;
-    left: 0px;
 }
 
 @font-face {
@@ -57,43 +53,39 @@
     position: absolute;
     color: rgb(130, 205, 218);
     font-family: ArchivoBlack;
-    font-size: 400px;
-    left: 100px;
-    top: -440px;
+    font-size: 300px;
+    left: 3%;
+    top: -300px;
 }
 
 #sign1 {
     position: absolute;
-    margin-top: 0px;
-    margin-left: 1400px;
-    height: 200px;
-    width: 400px;
-    z-index: +20;
+    margin-top: 50px;
+    margin-left: 80%;
+    height: 100px;
+    width: 200px;
 } 
 
 #sign2 {
     position: absolute;
-    margin-top: 200px;
-    margin-left: 1400px;
-    height: 200px;
-    width: 400px;
-    z-index: +20;
+    margin-top: 150px;
+    margin-left: 80%;
+    height: 100px;
+    width: 200px;
 }
 
 #sign3 {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 1400px;
-    height: 200px;
-    width: 400px;
-    z-index: +20;
+    margin-top: 250px;
+    margin-left: 80%;
+    height: 100px;
+    width: 200px;
 }
 
 #sign4 {
     position: absolute;
-    margin-top: 600px;
-    margin-left: 1400px;
-    height: 200px;
-    width: 400px;
-    z-index: +20;
+    margin-top: 350px;
+    margin-left: 80%;
+    height: 100px;
+    width: 200px;
 }
