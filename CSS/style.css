@@ -1,27 +1,13 @@
- .container {
-    background: white;
-    height: 3000px;
-}
-
-h1 {
-    position: absolute;
-    color: white;
-    top: -10px;
-    font-family: 'Caveat', cursive;
-    z-index: +10;
-} 
-
-#full-name {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
+.container {
+    background: black;
+    height: 5000px;
+ } 
 
 .introduction-1 {
     position: absolute;
     width: 100%;
-    text-align: center;
-    top: 200px;
+    left: 100px;
+    top: 50%;
     font-size: 30px;
     color: white;
     font-family: 'Mukta', sans-serif;
@@ -32,8 +18,8 @@ h1 {
 .introduction-2 {
     position: absolute;
     width: 100%;
-    text-align: center;
-    top: 250px;
+    left: 100px;
+    top: 55%;
     font-size: 30px;
     color: white;
     font-family: 'Mukta', sans-serif;
@@ -44,8 +30,8 @@ h1 {
 .introduction-3 {
     position: absolute;
     width: 100%;
-    text-align: center;
-    top: 300px;
+    left: 100px;
+    top: 60%;
     font-size: 30px;
     color: white;
     font-family: 'Mukta', sans-serif;
@@ -55,62 +41,59 @@ h1 {
 
 .block {
     position: absolute;
-    height: 500px;
+    height: 100%;
     width: 100%;
-    background: rgb(99, 145, 100);
-    top: 50px;
+    background: black;
+    top: 0px;
     left: 0px;
+}
+
+@font-face {
+    src: url(Fonts/ArchivoBlack-Regular.ttf);
+    font-family: ArchivoBlack;
 }
 
 .hello {
     position: absolute;
-    color:rgb(143, 189, 144);
-    font-size: 500px;
-    left: 5px;
+    color: rgb(130, 205, 218);
+    font-family: ArchivoBlack;
+    font-size: 400px;
+    left: 100px;
     top: -440px;
 }
 
-.menu-area {
+#sign1 {
     position: absolute;
-    background: rgb(143, 189, 144);
-    width: 100%; 
-    height: 50px;
-    top: 0px;
-    left: 0px;
-    z-index: -10;
-}
-
-.menu-area.active {
-    height: 100%;
+    margin-top: 0px;
+    margin-left: 1400px;
+    height: 200px;
+    width: 400px;
+    z-index: +20;
 } 
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+#sign2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1400px;
+    height: 200px;
+    width: 400px;
+    z-index: +20;
 }
 
-.item {
-    height: 100px;
-    border: 2px solid  rgb(143, 189, 144);
-    font-family: 'Mukta', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-top: -10px;
+#sign3 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1400px;
+    height: 200px;
+    width: 400px;
+    z-index: +20;
 }
 
-a {
-    color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: white;
-}
-
-@font-face {
-    font-family: myFont;
-    src: url(Fonts/Caveat-Regular.ttf);
+#sign4 {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1400px;
+    height: 200px;
+    width: 400px;
+    z-index: +20;
 }

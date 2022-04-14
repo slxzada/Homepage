@@ -1,3 +1,49 @@
+@font-face {
+    src: url(Fonts/ArchivoBlack-Regular.ttf);
+    font-family: ArchivoBlack;
+}
+
 h1 {
     color: rgb(102, 129, 186);
+    font-family: ArchivoBlack;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: black;
+    height: 21200px;
+    width: 100%;
+    z-index: -10;
+}
+
+/*#rectangle {
+    position: absolute;
+    left: 50%;
+    right: 0px;
+    height: 21200px;
+    background: black;
+}*/
+
+.sketch {
+    height: 1000px;
+    width: 1000px;
+}
+
+#day16 {
+    height:1000px;
+    width: 1000px;
+}
+
+#day19 {
+    height:1000px;
+    width: 1000px;
+}
+
+#day20 {
+    height:1000px;
+    width: 1000px;
 }
