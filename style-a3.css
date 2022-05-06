@@ -1,3 +1,308 @@
-h1 {
-    color: rgb(127, 92, 153);
+@font-face {
+    src: url(Fonts/ArchivoBlack-Regular.ttf);
+    font-family: ArchivoBlack;
 }
+
+body {
+    background: black;
+    height: 100%;
+}
+
+h1 {
+    position: fixed;
+    top: 80px;
+    font-size: 20px;
+    left: 10px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+}
+
+#home {
+    color: rgb(127, 92, 153);
+    position: fixed;
+    top: 10px;
+    left: 1%;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+#title {
+    top: 10px;
+    position: relative;
+    font-size: 40px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    width: 100%;
+    left: 200px;
+}
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  top: 40px;
+  max-width: 650px;
+  position: relative;
+  left: 200px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  top: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(127, 92, 153);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  position: relative;
+  top: 650px;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: ArchivoBlack;
+  color: rgb(127, 92, 153);
+}
+
+.numbertext {
+  top: 40px;
+  color: rgb(127, 92, 153);
+  font-size: 12px;
+  font-family: ArchivoBlack;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  position: relative;
+  top: 60px;
+  left: 450px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#spacer {
+    position: relative;
+    top: 0px;
+    height: 100px;
+    width: 500px;
+    left: 100px;
+    background-color: black;
+    z-index: -10;
+}
+
+h2 {
+    position: relative;
+    color: rgb(127, 92, 153);
+    left: 200px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 130px;
+    text-align: center;
+}
+
+#Objective {
+    position: relative;
+    color: rgb(127, 92, 153);
+    left: 200px;
+    width: 450px;
+    font-family: ArchivoBlack;
+    font-size: 15px;
+}
+
+h3 {
+    position: relative;
+    color: rgb(127, 92, 153);
+    top: -290px;
+    left: 700px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+#learningObjectives {
+    position: relative;
+    color: rgb(127, 92, 153);
+    top: -295px;
+    left: 680px;
+    width: 450px;
+    font-family: ArchivoBlack;
+    font-size: 15px;
+}
+
+#reflection {
+    position: relative;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    top: -150px;
+    font-size: 15px;
+    left: 200px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    padding: 25px;
+    width: 1000px;
+}
+
+h4 {
+    position: relative;
+    color: rgb(127, 92, 153);
+    top: -150px;
+    left: 200px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 190px;
+    text-align: center;
+}
+
+.gallery {
+    position: relative;
+    top: -200px;
+    left: 150px;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 30vw);
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#p1 {
+    position: relative;
+    left: 10px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 15px;
+}
+
+#p2 {
+    position: relative;
+    left: 30px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 15px;
+}
+
+#p3 {
+    position: relative;
+    left: 20px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 15px;
+}
+
+#feedback {
+    position: relative;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 130px;
+    text-align: center;
+}
+
+#feedbackNotes {
+    position: relative;
+    left: 160px;
+    top: -150px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 15px;
+    width: 700px;
+}
+
+#final {
+    position: relative;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(127, 92, 153);
+    border-radius: 50px;
+    width: 220px;
+    text-align: center;
+}
+
+#finalNotes {
+    position: relative;
+    left: 160px;
+    top: -150px;
+    color: rgb(127, 92, 153);
+    font-family: ArchivoBlack;
+    font-size: 15px;
+    width: 700px;
+}
+

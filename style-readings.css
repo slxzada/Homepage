@@ -1,0 +1,155 @@
+@font-face {
+    src: url(Fonts/ArchivoBlack-Regular.ttf);
+    font-family: ArchivoBlack;
+}
+
+body {
+    background: black;
+    height: 100%;
+}
+
+h1 {
+    position: fixed;
+    top: 80px;
+    font-size: 20px;
+    left: 10px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+}
+
+#home {
+    color: rgb(100, 161, 106);
+    position: fixed;
+    top: 10px;
+    left: 1%;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(53, 94, 57);
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+#title {
+    position: relative;
+    font-size: 40px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 100%;
+    left: 200px;
+}
+
+h2 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(53, 94, 57);
+    width: 350px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#readingsDiscussions {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+}
+
+#questions {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 900px;
+}
+
+#responses {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 900px;
+}
+
+h3 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(53, 94, 57);
+    width: 370px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#responses2 {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 900px;
+}
+
+h4 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(53, 94, 57);
+    width: 320px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#response3 {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 900px;
+}
+
+h5 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(53, 94, 57);
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#response4 {
+    position: relative;
+    font-size: 15px;
+    left: 200px;
+    color: rgb(100, 161, 106);
+    font-family: ArchivoBlack;
+    width: 900px;
+}
