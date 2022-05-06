@@ -3,6 +3,21 @@
     font-family: ArchivoBlack;
 }
 
+body {
+    background: black;
+    height: 100%;
+}
+
+#title {
+    top: 10px;
+    position: relative;
+    left: 200px;
+    font-size: 40px;
+    color: rgb(238, 157, 170);
+    font-family: ArchivoBlack;
+    width: 100%;
+}
+
 #rectangle {
     width: 100%;
     height: 80px;
@@ -13,58 +28,46 @@ h1 {
     position: fixed;
     top: 80px;
     color: rgb(238, 157, 170);
-    font-size: 30px;
+    font-size: 20px;
     font-family: ArchivoBlack;
     left: 10px;
 }
 
-#ONE {
-    position: fixed;
-    top: 110px;
-    color: rgb(238, 157, 170);
-    font-size: 30px;
-    font-family: ArchivoBlack;
-    left: 10px;
-}
-
-.container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: black;
-    height: 3000px;
-    width: 100%;
-    max-width: 100%;
-    z-index: -10;
-}
-
-img {
+#poster {
     position: absolute;
     max-width: 100%;
     max-height: 100%;
-   margin-left: 15%;
-   margin-top: 100px;
+    right: 52%;
+    top: 100px;
 }
 
 #body {
     position:absolute;
     left: 50%;
-    right: 150px;
+    width: 500px;
     font-size: 15px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
 }
 
-#header2 {
+h3{
+    position: relative;
     font-size: 20px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
+    left: 50%;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    width: 240px;
+    text-align: center;
 }
 
 #body2 {
     position:absolute;
     left: 50%;
-    right: 150px;
+    width: 500px;
     font-size: 15px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
@@ -79,40 +82,127 @@ img {
     font-family: ArchivoBlack;
 }
 
-#appList {
-    position: absolute;
+h4{
+    position: relative;
+    font-size: 20px;
+    color: rgb(238, 157, 170);
+    font-family: ArchivoBlack;
     left: 50%;
-    right: 250px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    width: 140px;
+    text-align: center;
+}
+
+#appList {
+    position: relative;
+    left: 50%;
     font-size: 15px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
 }
 
 #bodypara {
-    position: absolute;
+    position: relative;
     left: 50%;
-    right: 250px;
-    top: 600px;
+    width: 500px;
+    top: 200px;
     font-size: 15px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    padding: 25px;
+    width: 500px;
 }
 
 h2 {
     position: absolute;
     left: 50%;
-    right: 250px;
+    width: 500px;
+    font-size: 20px;
+    color: rgb(238, 157, 170);
+    font-family: ArchivoBlack;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
+}
+
+#home {
+    color: rgb(238, 157, 170);
+    position: fixed;
+    top: 10px;
+    left: 1%;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+h5 {
+    position: relative;
+    top: 200px;
+    color: rgb(238, 157, 170);
+    font-size: 25px;
+    font-family: ArchivoBlack;
+    left: 15%;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(238, 157, 170);
+    border-radius: 50px;
+    width: 210px;
+    text-align: center;
+}
+
+#brainstorming {
+    position: relative;
+    left: 16%;
+    top: 170px;
     font-size: 20px;
     color: rgb(238, 157, 170);
     font-family: ArchivoBlack;
 }
 
-#spacer1 {
-    background: white;
-    margin-left: 50%;
-    width: 200px;
-    height: 50px;
-    border: 2px;
-    border-color: white;
-    border-width: 5px;
+#brainstorm1 {
+    position: relative;
+    max-width: 45%;
+    max-height: 45%;
+    left: 16%;
+    top: 190px;
+    z-index: -10;
 }
+
+.gallery {
+    position: relative;
+    top: 250px;
+    left: 13%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 50vw);
+    grid-gap: 30px;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(238, 157, 170);
+    font-family: ArchivoBlack;
+}
+

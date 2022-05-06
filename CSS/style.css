@@ -1,46 +1,41 @@
-.container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+body {
     background: black;
-    height: 1000px;
-    width: 100%;
-    max-width: 100%;
-    z-index: -10;
- } 
+    height: 100%;
+}
 
-.introduction-1 {
-    position: absolute;
-    top: 50%;
-    left: 4%;
+#introduction-1 {
+    position: relative;
+    top: 450px;
+    left: 7%;
     font-size: 30px;
-    color: white;
-    font-family: 'Mukta', sans-serif;
-    z-index: +10;
+    font-family: ArchivoBlack;
     filter: blur(5px);
 }
 
-.introduction-2 {
-    position: absolute;
-    width: 100%;
-    left: 4%;
-    top: 55%;
+#introduction-2 {
+    position: relative;
+    left: 7%;
+    top: 450px;
     font-size: 30px;
-    color: white;
-    font-family: 'Mukta', sans-serif;
-    z-index: +10;
+    font-family: ArchivoBlack;
     filter: blur(5px);
 }
 
-.introduction-3 {
-    position: absolute;
-    width: 100%;
-    left: 4%;
-    top: 60%;
+#introduction-3 {
+    position: relative;
+    left: 7%;
+    top: 450px;
     font-size: 30px;
-    color: white;
-    font-family: 'Mukta', sans-serif;
-    z-index: +10;
+    font-family: ArchivoBlack;
+    filter: blur(5px);
+}
+
+#introduction-4 {
+    position: relative;
+    left: 7%;
+    top: 450px;
+    font-size: 30px;
+    font-family: ArchivoBlack;
     filter: blur(5px);
 }
 
@@ -49,43 +44,57 @@
     font-family: ArchivoBlack;
 }
 
-.hello {
+#hello {
     position: absolute;
     color: rgb(130, 205, 218);
     font-family: ArchivoBlack;
     font-size: 300px;
     left: 3%;
     top: -300px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(130, 205, 218);
+    border-radius: 200px;
+    width: 1000px;
+    text-align: center;
 }
 
 #sign1 {
     position: absolute;
-    margin-top: 50px;
-    margin-left: 80%;
-    height: 100px;
-    width: 200px;
+    top: 0px;
+    margin-left: 1500px;
+    max-height: 20%;
+    max-width: 20%;
 } 
 
 #sign2 {
     position: absolute;
-    margin-top: 150px;
-    margin-left: 80%;
-    height: 100px;
-    width: 200px;
+    top: 200px;
+    left: 1500px;
+    max-height: 20%;
+    max-width: 20%;
 }
 
 #sign3 {
     position: absolute;
-    margin-top: 250px;
-    margin-left: 80%;
-    height: 100px;
-    width: 200px;
+    top: 400px;
+    left: 1500px;
+    max-height: 20%;
+    max-width: 20%;
 }
 
 #sign4 {
     position: absolute;
-    margin-top: 350px;
-    margin-left: 80%;
-    height: 100px;
-    width: 200px;
+    top: 600px;
+    left: 1500px;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+#sign5 {
+    position: absolute;
+    top: 800px;
+    left: 1500px;
+    max-height: 20%;
+    max-width: 20%;
 }

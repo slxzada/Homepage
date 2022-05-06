@@ -3,40 +3,160 @@
     font-family: ArchivoBlack;
 }
 
+body {
+    background: black;
+    height: 100%;
+}
+
 h1 {
+    position: fixed;
+    top: 80px;
+    font-size: 20px;
+    left: 10px;
     color: rgb(102, 129, 186);
     font-family: ArchivoBlack;
+}
+
+.gallery {
+    position: relative;
+    left: 150px;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 30vw);
+}
+
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#home {
+    color: rgb(102, 129, 186);
+    position: fixed;
+    top: 10px;
+    left: 1%;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(102, 129, 186);
+    border-radius: 50px;
+    width: 80px;
     text-align: center;
+}
+
+#title {
+    top: 10px;
+    position: relative;
+    left: 190px;
+    font-size: 40px;
+    color: rgb(102, 129, 186);
+    font-family: ArchivoBlack;
     width: 100%;
 }
 
-.container {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: black;
-    height: 21200px;
-    width: 100%;
-    z-index: -10;
+h2 {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 200px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(102, 129, 186);
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
 }
 
-
-.sketch {
-    height: 1000px;
-    width: 1000px;
+#objective {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 200px;
+    width: 430px;
+    font-family: ArchivoBlack;
+    font-size: 15px;
 }
 
-#day16 {
-    height:1000px;
-    width: 1000px;
+h3 {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 700px;
+    top: -210px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(102, 129, 186);
+    border-radius: 50px;
+    width: 240px;
+    text-align: center;
 }
 
-#day19 {
-    height:1000px;
-    width: 1000px;
+#learningObjectives {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 700px;
+    top: -215px;
+    width: 430px;
+    font-family: ArchivoBlack;
+    font-size: 15px;
 }
 
-#day20 {
-    height:1000px;
+#click {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 200px;
+    top: -250px;
+    font-family: ArchivoBlack;
+    font-size: 15px; 
+}
+
+h4 {
+    position: relative;
+    color: rgb(102, 129, 186);
+    left: 200px;
+    top: -250px;
+    font-family: ArchivoBlack;
+    font-size: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(102, 129, 186);
+    border-radius: 50px;
+    width: 240px;
+    text-align: center;
+}
+
+.gallery2 {
+    position: relative;
+    left: 100px;
+    top: -260px;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 30vw);
+}
+
+p {
+    color: rgb(102, 129, 186);
+    font-family: ArchivoBlack;
+    font-size: 12px;
+}
+
+#reflection {
+    position: relative;
+    color: rgb(102, 129, 186);
+    top: -250px;
+    left: 200px;
     width: 1000px;
+    font-family: ArchivoBlack;
+    font-size: 15px; 
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(102, 129, 186);
+    border-radius: 50px;
+    padding: 25px;
+    width: 950px;
 }
